@@ -1,0 +1,21 @@
+{
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "coverage": "istanbul cover _mocha index.test.js -x *.test.js",
+    "showcoverage": "xdg-open coverage/lcov-report/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.1.1"
+  }
+}
