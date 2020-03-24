@@ -1,4 +1,4 @@
-class person{
+class employee{
     constructor(name,age,deptNo,startyear){
         this.name = name;
         this.age = age;
@@ -16,4 +16,4 @@ class person{
     }
 }
 
-module.exports = person
+module.exports = employee
